@@ -1,0 +1,295 @@
+@media all and (max-width: 1220px)
+{
+	.container
+	{
+		width: 100%;
+	}
+
+    img
+    {
+    	max-width: 100%;
+    }
+
+    .particles img
+    {
+        max-width: none;
+    }
+
+    .particles
+    {
+        /* display: none; */
+    }
+
+    .nav-link
+    {
+        padding: 0 10px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .video-popup .text
+    {
+        width: 550px;
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+
+    .video-popup .video,
+    .video-popup iframe
+    {
+        width: 602px;
+        height: 378px;
+    }
+
+    .video-popup .prev
+    {
+        left: -60px;
+    }
+
+    .video-popup .next
+    {
+        right: -60px;
+    }
+
+    .video-popup .close
+    {
+        top: -60px;
+        right: -60px;
+    }
+}
+
+@media all and (max-width: 925px)
+{
+    .visible-md { display: block !important; }
+    .hidden-md  { display: none !important; }
+
+    .container
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-nav
+    {
+        height: auto;
+    }
+
+    ul.horizontal li
+    {
+        display: inline-block;
+    }
+
+    .nav-link
+    {
+        margin-bottom: 5px;
+        padding: 12px 16px;
+    }
+
+    .nav-link.-btn
+    {
+        position: static;
+    }
+
+    .hero
+    {
+        margin-top: 50px;
+    }
+
+    .quote-item
+    {
+        font-size: 13px;
+    }
+
+    .large-quote
+    {
+        height: 600px;
+    }
+
+    .large-quote .quote
+    {
+        width: 400px;
+    }
+
+    .contact-item
+    {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 720px)
+{
+    .visible-sm { display: block !important; }
+    .hidden-sm  { display: none !important;  }
+
+	[class^="col"]
+    {
+    	float: none;
+    	width: 100%;
+    }
+
+    .toggle-nav
+    {
+        display: block;
+    }
+
+    .nav-list
+    {
+        display: none;
+    }
+
+    .nav-list.active
+    {
+        display: block;
+    }
+
+    ul.horizontal li
+    {
+        display: block;
+    }
+
+    .quote-list
+    {
+        margin-bottom: 0;
+    }
+
+    .quote-item
+    {
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    .large-quote
+    {
+        height: 320px;
+    }
+
+    .large-quote .quote
+    {
+        width: 180px;
+    }
+
+    .large-quote .author
+    {
+        font-size: 24px;
+        line-height: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    .large-quote .text
+    {
+        font-size: 13px;
+        line-height: 1.3em;
+    }
+
+    .info
+    {
+        margin-bottom: 90px;
+    }
+
+    h3
+    {
+        text-align: center;
+    }
+
+    .contact-item
+    {
+        font-size: 16px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .fb-link
+    {
+        margin-bottom: 60px;
+        width: 300px;
+    }
+
+    .bottom-bar
+    {
+        margin-right: 0;
+        margin-bottom: 100px;
+    }
+
+    .bottom-bar:before
+    {
+        bottom: -102px;
+        right: 50%;
+        margin-right: -38px;
+    }
+
+    .social-link:last-child
+    {
+        margin-right: 0;
+    }
+
+    .social-note
+    {
+        margin-bottom: 20px;
+    }
+
+    .bottom-bar span
+    {
+        vertical-align: middle;
+        display: block;
+        text-align: center;
+    }
+
+    .scroll-btn.-up
+    {
+        right: 30px;
+        top: auto;
+        bottom: 90px;
+    }
+
+    .video-popup .text
+    {
+        width: 370px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+
+    .video-popup .video,
+    .video-popup iframe
+    {
+        width: 421px;
+        height: 270px;
+    }
+}
+
+@media all and (max-width: 560px)
+{
+    .quotes
+    {
+        padding-top: 50px;
+    }
+
+    .quotes-header
+    {
+        line-height: 1.5em;
+    }
+
+    .video-popup .video,
+    .video-popup iframe
+    {
+        width: 284px;
+        height: 185px;
+    }
+
+    .video-popup .prev
+    {
+        left: -40px;
+    }
+
+    .video-popup .next
+    {
+        right: -40px;
+    }
+
+    .video-popup .close
+    {
+        top: -40px;
+        right: -40px;
+    }
+}
