@@ -237,6 +237,7 @@ section, nav
     margin-bottom: 45px;
     padding-top: 165px;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .quotes-header
@@ -266,9 +267,9 @@ section, nav
 .quote-item
 {
     display: table;
+    border: 1px solid #000;
     position: relative;
     height: 180px;
-    text-align: center;
     font-size: 16px;
     font-style: italic;
     line-height: 1.5em;
@@ -301,6 +302,8 @@ section, nav
     bottom: 0;
 } */
 
+
+
 .quote-item .text
 {
     display: table-cell;
@@ -312,7 +315,7 @@ section, nav
 .quote-item .btn
 {
     width: 66px;
-    height: 39px;
+    height: 390px;
     padding-top: 0;
     padding-bottom: 0;
     position: absolute;
@@ -370,7 +373,7 @@ section, nav
     display: table;
     width: 100%;
     height: 730px;
-    color: #262a36;
+    color: white;
 }
 
 .large-quote:before
@@ -378,7 +381,7 @@ section, nav
     position: absolute;
     display: block;
     content: '';
-    background: url(../img/milton.png) no-repeat center;
+    background: url(../img/cytat.png) no-repeat center;
     background-size: 100%;
     background-size: cover;
     width: 100%;
@@ -405,9 +408,17 @@ section, nav
 .large-quote .author
 {
     display: block;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 42px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 30px;
+}
+.large-quote .subauthor
+{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
     font-weight: bold;
     line-height: 1.3em;
     margin-bottom: 30px;
