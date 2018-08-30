@@ -259,7 +259,7 @@ section, nav
 .quotes
 {
     margin-bottom: 45px;
-    padding-top: 165px;
+    padding-top: 55px;
     line-height: 1.5em;
     text-align: center;
 }
@@ -438,6 +438,7 @@ section, nav
     font-weight: bold;
     line-height: 1.3em;
     margin-bottom: 30px;
+    text-align: center;
 }
 .large-quote .subauthor
 {
@@ -447,16 +448,19 @@ section, nav
     font-weight: bold;
     line-height: 1.3em;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .large-quote .text
 {
     line-height: 1.3em;
+    text-align: center;
 }
 
 .person
 {
     display: flex;
+    justify-content: center;
     margin-bottom: 3rem;
 }
 
@@ -465,14 +469,17 @@ section, nav
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 177px;
-    height: 177px;
-    border: 1px solid white;
+    width: 190px;
+    height: 178px;
+    border: 2px solid white;
     border-radius: .7rem;
-    margin: 0 1.5rem;
-    /* transform: scale(0.9) */
+    margin: 0 2rem;
 }
-
+.face img
+{
+    width: 153px;
+    height: 153px;
+}
 .face img:hover
 {
     transform: scale(1.15)
@@ -480,8 +487,7 @@ section, nav
 
 .opis
 {
-    max-width: 360px;
-    /* margin: 0 2rem; */
+    width: 360px;
 }
 
 .name, .city, .text
