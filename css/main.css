@@ -26,10 +26,11 @@ body
 {
     min-width: 320px;
     font-size: 16px;
-    background: #0d233e;
+    background: #133055;
     background-image: url(../img/wolnosc.png);
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: cover;
 }
 
 .container
@@ -59,7 +60,7 @@ section, nav
     display: inline-block;
     background: #383a51;
     color: #fff;
-    padding: -24px;
+    /* padding: -24px; */
     text-transform: uppercase;
     font-weight: bold;
     -webkit-border-radius: 3px;
@@ -68,29 +69,47 @@ section, nav
     font-size: 16px;
     font-weight: 800;
     text-align: center;
-}
 
-.btn.-wide
-{
-    padding: 25px;
-}
-.btn.-wider
-{
-    padding: 30px 80px;
-}
-
-.red {
-    width: 350px;
+    width: 280px;
+    max-width: 80vw;
     height: 98px;
-    background-color: #a90000;
+    /* background-color: #a90000; */
     border-radius: 1rem;
     border: 1px solid white;
     font-weight: 800;
     cursor: pointer;
 }
 
-.red:hover {
+.btn.-wide
+{
+    padding: 30px;
+}
+.btn.-wider
+{
+    padding: 15px;
+}
+.btn.-wides
+{
+    padding: 25px;
+}
+.red
+{
+    background-color: #a90000;
+}
+
+.blue
+{
+    background-color: #3c597f;
+}
+
+.red:hover
+{
     color: #a90000;
+    background-color: white !important;
+}
+
+.blue:hover {
+    color: #3c597f !important;
     background-color: white !important;
 }
 
@@ -98,6 +117,11 @@ section, nav
 {
     background: #a90000;
     color: #272939;
+}
+
+.mix
+{
+    padding: 1.8rem 3rem !important;
 }
 
 /* /btn ***********************************************************************/
@@ -248,7 +272,7 @@ section, nav
     font-weight: bold;
     font-family: 'Montserrat', Arial, sans-serif;
     line-height: 1.3em;
-    margin-bottom: 60px;
+    margin: 120px 0;
     height: 115px;
     line-height: 115px;
     vertical-align: middle;
@@ -260,11 +284,12 @@ section, nav
 }
 
 .subtitle {
-    width: 740px;
+    max-width: 740px;
+    width: 80vw;
     margin: -5rem auto 5rem auto;
 }
 
-.quote-item
+/* .quote-item
 {
     display: table;
     border: 1px solid #000;
@@ -274,9 +299,9 @@ section, nav
     font-style: italic;
     line-height: 1.5em;
     cursor: pointer;
-}
+} */
 
-.quote-item:before,
+/* .quote-item:before,
 .quote-item:after
 {
     z-index: -1;
@@ -288,7 +313,7 @@ section, nav
     left: 21.5%;
     right: 21.5%;
     transition: all 200ms ease;
-}
+} */
 
 /* .quote-item:before
 {
@@ -429,6 +454,53 @@ section, nav
     line-height: 1.3em;
 }
 
+.person
+{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.face
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 177px;
+    height: 177px;
+    border: 1px solid white;
+    border-radius: .7rem;
+    margin: 0 1.5rem;
+    /* transform: scale(0.9) */
+}
+
+.face img:hover
+{
+    transform: scale(1.15)
+}
+
+.opis
+{
+    max-width: 360px;
+    /* margin: 0 2rem; */
+}
+
+.name, .city, .text
+{
+    text-align: left;          
+}
+
+.name
+{
+    font-size: 1.2rem;
+    color: red;
+    font-weight: 900;
+}
+
+.city
+{
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
 /* /large-quote ***************************************************************/
 
 /* info ***********************************************************************/
@@ -437,11 +509,38 @@ section, nav
 {
     margin: 50px auto 150px;
     line-height: 1.3em;
+    text-align: center;
 }
 
+.info
+{
+    background: url('../img/logos.png');
+    background-size: contain;
+    
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center center;
+}
+
+.info-title
+{
+    font-size: 3rem;
+      font-weight: 800;
+      margin: 3rem 0 1rem 0;
+      line-height: 1.1;
+}
+.red-text
+{
+    color: red;
+}
+.info.text
+{
+    margin: 2rem;
+}
 .info-text:first-child
 {
     margin-bottom: 40px;
+    color: yellow;
 }
 
 .info .actions
@@ -475,7 +574,7 @@ section, nav
 
 h3
 {
-    color: #a90000;
+    color: #3c597f;
     font-size: 32px;
     font-family: 'Oswald', Arial, sans-serif;
     text-transform: uppercase;
@@ -507,19 +606,19 @@ h3
     padding-bottom: 2px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     font-size: 12px;
-    margin-right: 100px;
+    margin-right: 220px;
 }
 
 .bottom-bar:before
 {
     display: block;
     content: '';
-    background: url(../img/logo-sm.png) no-repeat;
-    width: 76px;
-    height: 58px;
+    background: url(../img/logo02.png) no-repeat;
+    width: 213px;
+    height: 85px;
     position: absolute;
-    right: -95px;
-    bottom: -2px;
+    right: -220px;
+    bottom: 2px;
 }
 
 .social-links

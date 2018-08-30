@@ -15,11 +15,6 @@
         max-width: none;
     }
 
-    .particles
-    {
-        /* display: none; */
-    }
-
     .nav-link
     {
         padding: 0 10px;
@@ -231,7 +226,6 @@
 
     .bottom-bar span
     {
-        vertical-align: middle;
         display: block;
         text-align: center;
     }
